@@ -1,0 +1,30 @@
+td{
+	border:0px solid black;
+	padding: 0px;
+
+}
+
+tr{
+	border: 0px solid black;
+
+}
+
+img{
+	height: 80%;
+	width: 80%;
+	max-width: 307px;
+	max-height: 465px;
+}
+
+#gameButton{
+	margin-bottom: 0.5%;
+}
+
+.table td {
+	padding: .1rem;
+	border-top: 0;
+}
+
+.storeCardImage {
+  max-width: 65%;
+}

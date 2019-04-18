@@ -1,0 +1,83 @@
+#gameResult{
+	overflow:scroll;
+    height:250px;
+
+}
+#cardInfo{
+	overflow-y:scroll;
+	height:500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cropped {
+    width: 180px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.vsImg {
+    /*display: inline;*/
+    margin: 0 auto;
+    height: 150%;
+    width: auto;
+	position: absolute;
+    top: -9920px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.infoButton {
+    margin-left: 1%;
+    width: 15%;
+    min-width: 15%;
+}
+
+
+
+.table {
+    border-style: hidden
+}
+
+.opponentsCards{
+	float:right;
+}
+
+#testDiv{
+	border:1px solid black;
+	background-color: grey;
+}
+
+#addButton {
+	margin-left: 2%;
+	width: 20%;
+}
+
+.flexContainer{
+    display:flex;
+    justify-content: space-between;
+        width: 180px;
+}
+
+.btndiv {
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+}
+
+.statInfo{
+    margin-top:3%;
+    border-radius: 5px;
+    align-self: auto;
+    background-color: #343A40;
+    color:white;
+    padding: 0.2em;
+}
+
+.statText {
+    padding: 0.2em;
+}
